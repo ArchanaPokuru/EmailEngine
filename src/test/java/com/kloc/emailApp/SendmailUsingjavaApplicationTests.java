@@ -1,10 +1,10 @@
-package com.springboot.mailAPI;
+package com.kloc.emailApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MailApiApplicationTests {
+class SendmailUsingjavaApplicationTests {
 
 	@Test
 	void contextLoads() {

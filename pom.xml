@@ -8,36 +8,18 @@
 		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.springboot</groupId>
-	<artifactId>mailApi</artifactId>
+	<groupId>com.kloc.emailApp</groupId>
+	<artifactId>sendmailUsingjava</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mailApi</name>
-	<description>demo mail</description>
+	<name>sendmailUsingjava</name>
+	<description>This is project just for sending mail using java</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-mail</artifactId>
-   
-</dependency>
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
 		<dependency>
-          <groupId>mysql</groupId>
-          <artifactId>mysql-connector-java</artifactId>
-           <version>8.0.32</version>
-        </dependency>
-        <dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
+			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
